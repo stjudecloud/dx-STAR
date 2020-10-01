@@ -63,4 +63,4 @@ cp sambamba ../resources/
 cd ..
 
 echo dx build $app_arg "$@"
-#dx build $app_arg "$@"
+dx build $app_arg "$@"
