@@ -46,12 +46,16 @@ then
 fi
 
 cd build
-curl -L -o star.tar.gz https://github.com/alexdobin/STAR/archive/2.7.1a.tar.gz
-echo "4026d6d19a9aea62404b84dfab204c99  star.tar.gz" > star.md5
+#curl -L -o star.tar.gz https://github.com/alexdobin/STAR/archive/2.7.1a.tar.gz
+#echo "4026d6d19a9aea62404b84dfab204c99  star.tar.gz" > star.md5
+#md5sum -c star.md5
+
+curl -L -o star.tar.gz https://github.com/alexdobin/STAR/archive/2.5.2a.tar.gz
+echo "984bbe120b2d54a724cfe2ab48f753e5  star.tar.gz" > star.md5
 md5sum -c star.md5
 
 tar -zxf star.tar.gz
-cp STAR-2.7.1a/bin/Linux_x86_64_static/STAR ../resources/
+cp STAR-2.5.2a/bin/Linux_x86_64_static/STAR ../resources/
 
 curl -L -o sambamba.gz https://github.com/biod/sambamba/releases/download/v0.7.1/sambamba-0.7.1-linux-static.gz
 echo "a47932d27f92a2639d4b228eb7847e04  sambamba.gz" > sambamba.md5
