@@ -2,10 +2,12 @@
   "summary": "stjude_star",
   "title": "STAR RNA Alignment (St. Jude)",
   "name": "stjude_star",
+  "version": "STAR_SHORT_VERSION",
   "runSpec": {
     "distribution": "Ubuntu",
-    "interpreter": "python2.7",
-    "release": "14.04",
+    "interpreter": "python3",
+    "release": "20.04",
+    "version": "0",
     "file": "src/code.py",
     "timeoutPolicy": {
       "*": {
@@ -77,7 +79,6 @@
       "help": "" 
     }
   ],
-  "version": "1.2.0",
   "regionalOptions": {
     "azure:westus": {
       "systemRequirments": {
