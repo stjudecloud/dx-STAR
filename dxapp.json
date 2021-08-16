@@ -81,14 +81,14 @@
   ],
   "regionalOptions": {
     "azure:westus": {
-      "systemRequirments": {
+      "systemRequirements": {
         "*": {
           "instanceType": "azure:mem3_ssd1_x16"
         }
       }
     },
     "aws:us-east-1": {
-      "systemRequirments": {
+      "systemRequirements": {
         "*": {
           "instanceType": "mem3_ssd1_x16"
         }
